@@ -298,7 +298,35 @@ function optionChanged(selection) {
 
 
 
+// // // // ------------------------------------------------------------------------------------------------------------------------------------------------------------ // // // // 
+// // TO SETUP AN INITIALIZE FUNCTION THAT'LL POPULATE THE DROPDOWN, SELECT A RANDOM DEFAULT ID AND CALL THE PLOT GRAPH AND METADATA FUNCTIONS TO POPULATE LANDING PAGE // // // // 
+// // // // ----------------------------------------------------------------------------------------------------------------------------------------------------------- // // // //
+function initialize() {
+    var selector = d3.select('#selDataset');
 
+    // d3.json("data/samples.json").then((bbData) => {
+
+    //     var idNames = bbData.names;
+    //     // console.log(idNames)
+
+    //     idNames.forEach((sample) => {
+    //         selector
+    //             .append("option")
+    //             .text(sample)
+    //             .property("value", sample);
+    //     });
+
+    //     //         // Select a sample from your data and call your build charts and metadata functions.
+    //     selectedID = idNames[Math.floor(Math.random() * idNames.length)]
+    app(940)
+    // plotGraphsLoop(selectedID)
+    // metaDataSearchLoop(selectedID)
+    // console.log(selectedID)
+
+    // });
+}
+
+initialize()
 
 
 

@@ -4,7 +4,7 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
 
 ## Getting Started
 
-* Go to _____ to see the interactive tool.    
+* Go to https://vc-adams.github.io/Interactive_Visualizations_Week_15/ to see the interactive tool.    
 * See deployment for notes on how to deploy the project on a local machine.
 
 ### Prerequisites

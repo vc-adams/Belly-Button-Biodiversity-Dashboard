@@ -2,27 +2,35 @@
 
 Built an interactive dashboard to explore the Belly Button Biodiversity dataset from http://robdunnlab.com/projects/belly-button-biodiversity/. The data catalogs the microbes that colonize in human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-## Getting Started
+## View the Dashboard
+* Go to https://vc-adams.github.io/Interactive_Visualizations_Week_15/ to see the interactive tool.
 
-* Go to https://vc-adams.github.io/Interactive_Visualizations_Week_15/ to see the interactive tool.    
-* See deployment for notes on how to deploy the project on a local machine.
+## Getting Started    
+* These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+* Visual Studio Code (VSC)
+  * Version 1.52.1 was used to create the Dashboard
+* json 2.0.2
+  * Used to view data file
+* Prettify JSON
+  * Used to view data file
 
-What things you need to install the software and how to install them
+### Installing Prerequisites
+* Visual Studio Code (VSC)
+  * https://code.visualstudio.com/download
+* json 2.0.2 and Prettify JSON
+  * Both should be installed inside VSC. 
+    1) Opening VSC 
+    2) At the top left of the window, click on the magnifying glass 
+    3) Type one of the extension names in the text box, the list will filter below the text box 
+    4) Click on the extension below the text box 
+    5) Click Install button 
+    6) Repeat steps 3 thru 5 for the second extension 
 
-Give examples
-### Installing
+### Deployment
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
+Add additional notes about how to deploy this on a live system
 
 ### Running the tests
 
@@ -38,11 +46,9 @@ And coding style tests
 Explain what these tests test and why
 
 Give an example
-### Deployment
 
-Add additional notes about how to deploy this on a live system
 
-### Built With
+## Built With
 
 Dropwizard - The web framework used
 Maven - Dependency Management

@@ -9,6 +9,8 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
 * These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
+* Python
+  * To create the local server
 * Visual Studio Code (VSC)
   * Version 1.52.1 was used to create the Dashboard
 * json 2.0.2
@@ -17,6 +19,8 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
   * Used to view data file
 
 ### Installing Prerequisites
+* Python
+  * https://www.python.org/downloads/
 * Visual Studio Code (VSC)
   * https://code.visualstudio.com/download
 * json 2.0.2 and Prettify JSON
@@ -48,57 +52,10 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
            3) After opening the Start menu, type this on your keyboard to search the menu items. Type cmd or Command Prompt.  Command Prompt will show up as the top result.
            4) Click the Image titled Command Prompt app on the menu. This will open the Command Prompt terminal in a new window.
     3) Create a local server to access the data files.
-       i) Inside the terminal window, map to the directory where the files from the repository are located.
+       - Inside the terminal window, map to the directory where the files from the repository are located.
            - Example inside the quotation marks: "cd /Downloads/Belly_Button_Biodiversity_Interactive_Visualization".
-      ii) After typing in the file path of the director and press enter.
-     iii) Then type the text inside the quotation marks, "python -mhttp.server". This will allow your computer to access the data file that is located on your computer.
-      iv) Open a web browser (preferably Google Chrome).
-       v) In the address bar of the browser type the text inside the quotation marks, "localhost:8000". The dashboard should pull up after you press enter.
-      vi) When you are make sure to shutdown the server by doing to the terminal window and pressing control + c buttons simultaneously.
-
-
-Add additional notes about how to deploy this on a live system
-
-### Running the tests
-
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-
-Explain what these tests test and why
-
-Give an example
-
-
-## Built With
-
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-### Versioning
-
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-## Authors
-
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Hat tip to anyone whose code was used
-Inspiration
-etc
+       - After typing in the file path of the director and press enter.
+       - Then type the text inside the quotation marks, "python -mhttp.server". This will allow your computer to access the data file that is located on your computer.
+       - Open a web browser (preferably Google Chrome).
+       - In the address bar of the browser type the text inside the quotation marks, "localhost:8000". The dashboard should pull up after you press enter.
+       - When you are done make sure to shutdown the server by going to the terminal window and pressing control + c buttons simultaneously.

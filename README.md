@@ -29,6 +29,33 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
     6) Repeat steps 3 thru 5 for the second extension 
 
 ### Deployment
+* View the code and the data in VSC by 
+    1) Copy all the file in this repository
+    2) Open VSC
+    3) File --> Open 
+    4) Select the directory where all the files are located
+    5) Select the file you would like to view in the panel on the right
+
+* To test the Dashboard localy
+  * If you have already copied the file in this repository skip step 1
+    1) Copy all the file in this repository
+    2) Open a terminal window
+       - For a Mac: 
+           1) Open Launchpad and search for terminal. Alternatively, you can access the terminal by pressing ⌘ + space on your keyboard and searching for "terminal."
+       - For a Windows: 
+           1) Open your computer's Start menu.
+           2) Click the Windows Image icon on the bottom-left corner of your desktop.
+           3) After opening the Start menu, type this on your keyboard to search the menu items. Type cmd or Command Prompt.  Command Prompt will show up as the top result.
+           4) Click the Image titled Command Prompt app on the menu. This will open the Command Prompt terminal in a new window.
+    3) Create a local server to access the data files.
+       i) Inside the terminal window, map to the directory where the files from the repository are located.
+           - Example inside the quotation marks: "cd /Downloads/Belly_Button_Biodiversity_Interactive_Visualization".
+      ii) After typing in the file path of the director and press enter.
+     iii) Then type the text inside the quotation marks, "python -mhttp.server". This will allow your computer to access the data file that is located on your computer.
+      iv) Open a web browser (preferably Google Chrome).
+       v) In the address bar of the browser type the text inside the quotation marks, "localhost:8000". The dashboard should pull up after you press enter.
+      vi) When you are make sure to shutdown the server by doing to the terminal window and pressing control + c buttons simultaneously.
+
 
 Add additional notes about how to deploy this on a live system
 

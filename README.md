@@ -59,3 +59,6 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
        - Open a web browser (preferably Google Chrome).
        - In the address bar of the browser type the text inside the quotation marks, "localhost:8000". The dashboard should pull up after you press enter.
        - When you are done make sure to shutdown the server by going to the terminal window and pressing control + c buttons simultaneously.
+
+### Screenshot of the application
+![image](https://user-images.githubusercontent.com/67811128/113465441-9d4ad900-93f9-11eb-9ed4-cafd494b5fd5.png)

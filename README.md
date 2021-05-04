@@ -3,7 +3,7 @@
 Built an interactive dashboard to explore the Belly Button Biodiversity dataset from http://robdunnlab.com/projects/belly-button-biodiversity/. The data catalogs the microbes that colonize in human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ## View the Dashboard
-* Go to https://vc-adams.github.io/Interactive_Visualizations_Week_15/ to see the interactive tool.
+* Go to https://vc-adams.github.io/Belly_Button_Biodiversity_Dashboard/ to see the interactive tool.
 
 ## Getting Started    
 * These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.

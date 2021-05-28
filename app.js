@@ -266,7 +266,44 @@ function app(selectedSubject) {
 
         Plotly.newPlot("bubble", data, layout)
         // }
+
+
         //----------------------------------------------------------------------------------
+        //------------------------------Creating the Guage Plot-----------------------------
+        // // build Guage plot
+        var data = [
+            {
+                domain: { x: [0, 1], y: [0, 1] },
+                value: subjectMetaData.wfreq,
+                title: { text: `Belly Button Wash Frequency for OTU ID ${subjectMetaData.id}` },
+                type: "indicator",
+                mode: "gauge+number",
+                gauge: {
+                    axis: { range: [null, 10] },
+                    bar: { color: "black" },
+                    steps: [
+                        { range: [0, 1], color: "red" },
+                        { range: [1, 2], color: "#ff5900" },
+                        { range: [2, 3], color: "#ff9900" },
+                        { range: [3, 4], color: "#ffcc00" },
+                        { range: [4, 5], color: "#ffe600" },
+                        { range: [5, 6], color: "yellow" },
+                        { range: [6, 7], color: "#bfd900" },
+                        { range: [7, 8], color: "#80b200" },
+                        { range: [8, 9], color: "#408c00" },
+                        { range: [9, 10], color: "green" }
+                    ],
+                    threshold: {
+                        line: { color: "red", width: 8 },
+                        thickness: 1,
+                        value: 5
+                    }
+                }
+            }
+        ];
+
+        var layout = { width: 600, height: 500, margin: { t: 0, b: 0 } };
+        Plotly.newPlot("gauge", data, layout);
     })
 }
 

@@ -61,4 +61,5 @@ Built an interactive dashboard to explore the Belly Button Biodiversity dataset 
        - When you are done make sure to shutdown the server by going to the terminal window and pressing control + c buttons simultaneously.
 
 ### Screenshot of the application
-![image](https://user-images.githubusercontent.com/67811128/113465441-9d4ad900-93f9-11eb-9ed4-cafd494b5fd5.png)
+![Screen_Shot](https://user-images.githubusercontent.com/67811128/120016882-c6778800-bfaa-11eb-8fbb-1e0ceba10548.png)
+

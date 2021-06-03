@@ -271,6 +271,12 @@ function app(selectedSubject) {
         //----------------------------------------------------------------------------------
         //------------------------------Creating the Guage Plot-----------------------------
         // // build Guage plot
+        // Reference: 
+        //     - Gauge Charts in JavaScript
+        //         - https://plotly.com/javascript/gauge-charts/
+        // - Gauge chart with steps of colors
+        //     - https://stackoverflow.com/questions/40146741/gauge-chart-with-steps-of-colors
+
         var data = [
             {
                 domain: { x: [0, 1], y: [0, 1] },
